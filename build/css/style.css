@@ -867,6 +867,11 @@ video {
   color: rgb(67 56 202 / var(--tw-text-opacity));
 }
 
+.text-papayawhip-dark {
+  --tw-text-opacity: 1;
+  color: rgb(254 229 188 / var(--tw-text-opacity));
+}
+
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
