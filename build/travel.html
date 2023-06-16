@@ -7,26 +7,91 @@
     <title>Travel</title>
 </head>
 <body>
-    <nav></nav>
-    <div id="tab_bar"></div>
-    <section class="w-full h-screen">
-        <div id="home">
-            <div class="w-full h-3/4">                
-                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
-                    <input class="bg-red-500" type="search" name="" id="">
-                    <button class="bg-red-900">
-                        Explorar
-                    </button>
+    <header class="sticky top-0 z-10 bg-main-main100 text-white">
+        <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+          <h1 class="text-3xl font-medium">
+            <a href="#hero">🚀 Acme Rockets</a>
+          </h1>
+          <button
+            id="hamburguer-button"
+            class="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
+          >
+            <!-- &#9776; -->
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+          <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+            <a href="#rockets" class="hover:opacity-90"> Our Rockets </a>
+            <a href="#testimonials" class="hover:opacity-90"> Testimonials </a>
+            <a href="#contact" class="hover:opacity-90"> Contact Us </a>
+          </nav>
+        </section>
+        <section
+          id="mobile-menu"
+          class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl"
+        >
+          <!-- <button class="text-8xl self-end px-6">
+                  &times;
+              </button> -->
+          <nav
+            class="flex min-h-screen flex-col items-center py-8"
+            aria-label="mobile"
+          >
+            <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
+              >Home</a
+            >
+            <a href="#rockets" class="w-full py-6 text-center hover:opacity-90"
+              >Our Rockets</a
+            >
+            <a
+              href="#testimonials"
+              class="w-full py-6 text-center hover:opacity-90"
+              >Testimonials</a
+            >
+            <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
+              >Contact</a
+            >
+            <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
+              >Legal</a
+            >
+          </nav>
+        </section>
+    </header>
+
+    <main>
+        <nav></nav>
+        <div id="tab_bar"></div>
+        <section class="max-w-4xl h-screen">
+            <div id="home">
+                <div class="w-full h-3/4">                
+                    <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                        <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="">
+                        <button class="w-36 rounded-full bg-white text-xl text-secondary-blue070 font-semibold p-4 shadow-sm">
+                            Explorar
+                        </button>
+                    </div>
+                    <div class="w-full h-full">                    
+                        <img src="./img/tavel/sanFrancisco.jpg" alt="">
+                    </div>
+                    
                 </div>
-                <div class="w-full h-full">                    
-                    <img src="./img/tavel/sanFrancisco.jpg" alt="">
-                </div>
-                
             </div>
-        </div>
-        <div id="recomendadas"></div>
-        <div id="rentas_destacadas"></div>        
-    </section>
+
+            <div class="p-20" id="recomendadas">
+                <div class="w-48 h-64 shadow-md rounded-lg">
+                    <div class="w-full h-3/5 rounded-t-lg bg-norway">
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="rentas_destacadas"></div>        
+        </section>
+    </main>
     <footer>
     </footer>
 </body>

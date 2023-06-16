@@ -4,11 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        papayawhip: {
-          light: '#fef4e4',
-          DEFAULT: '#ffefd5',
-          dark: '#fee5bc',
-        }
+        main: {
+          main100: '#009ee3',
+          main040: '#a1d9f7',
+
+        },        
+        secondary: {
+          blue030: '#1f3c48',
+          blue070: '#3C88C8',
+          black060: '#878786',
+          black030: '#c6c6c5',
+          black000: '#ececec',
+        },        
       },
       screens: {
         'widescreen': {'raw':'(min-aspect-ratio: 3/2)'},
