@@ -3,6 +3,22 @@ module.exports = {
   content: ['./build/*.html', './build/js/*.js'],
   theme: {
     extend: {
+      backgroundImage: {
+        'bali': "url('/build/img/bali.jpg')",
+        'chicago': "url('/build/img/chicago.jpg')",
+        'europe': "url('/build/img/europe.jpg')",
+        'iceland': "url('/build/img/iceland.jpg')",
+        'LA': "url('/build/img/LA.jpg')",
+        'miami': "url('/build/img/miami.jpg')",
+        'new_york': "url('/build/img/new_york.jpg')",
+        'norway': "url('/build/img/norway.jpg')",
+        'sanFrancisco': "url('/build/img/sanFrancisco.jpg')",
+        'sanFranciscoDesktop': "url('/build/img/sanFranciscoDesktop.jpg')",
+        'seattle': "url('/build/img/seattle.jpg')",
+        'switzerland': "url('/build/img/switzerland.jpg')",
+        'sydney': "url('/build/img/sydney.jpg')",
+        'yosemite': "url('/build/img/yosemite.jpg')",        
+      },
       colors: {
         main: {
           main100: '#009ee3',
@@ -30,7 +46,7 @@ module.exports = {
       },
       animation: {
         'open-menu': 'open-menu 0.5s ease-in-out forwards',
-      }
+      },
     },
   },
   plugins: [],

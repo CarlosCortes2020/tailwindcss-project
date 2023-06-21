@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
     <title>Travel</title>
 </head>
 <body>
@@ -62,29 +63,50 @@
     <main>
         <nav></nav>
         <div id="tab_bar"></div>
-        <section class="max-w-4xl h-screen">
+        <section class="max-w-4xl h-screen mx-auto">
             <div id="home">
-                <div class="w-full h-3/4">                
-                    <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                <div class="max-w-4xl h-3/4 flex flex-col items-center">                
+                    <div class=" max-w-4xl h-full flex flex-col absolute space-y-96 py-4 items-center">
                         <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="">
                         <button class="w-36 rounded-full bg-white text-xl text-secondary-blue070 font-semibold p-4 shadow-sm">
                             Explorar
                         </button>
                     </div>
-                    <div class="w-full h-full">                    
-                        <img src="./img/tavel/sanFrancisco.jpg" alt="">
+                    <div class="max-w-4xl h-full">                    
+                        <img src="./img/sanFrancisco.jpg" alt="">
                     </div>
                     
                 </div>
             </div>
 
-            <div class="p-20" id="recomendadas">
-                <div class="w-48 h-64 shadow-md rounded-lg">
-                    <div class="w-full h-3/5 rounded-t-lg bg-norway">
-
+            <div class="p-6" id="recomendadas">
+                <p class="text-3xl font-semibold text-main-main100 mb-4">RECOMENDADOS</p>
+                <div class="flex gap-5 w-auto h72 items-center overflow-x-auto overscroll-x-contain">
+                    <div class="w-48 h-64 shadow-lg rounded-lg flex-none">
+                        <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover">
+                        </div>
+                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg">
+                            <p class="text-white text-xl font-bold">Norway</p>
+                            <p class="text-white">Beautiful landscapes</p>
+                        </div>
                     </div>
-                    <div>
 
+                    <div class="w-48 h-64 shadow-lg rounded-lg flex-none">
+                        <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover">
+                        </div>
+                        <div class="w-full h-2/5 rounded-b-lg bg-white p-3 shadow-lg">
+                            <p class="text-main-main100 text-xl font-bold">Norway</p>
+                            <p class="text-main-main100">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div class="w-48 h-64 shadow-lg rounded-lg flex-none">
+                        <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover">
+                        </div>
+                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg">
+                            <p class="text-white text-xl font-bold">Norway</p>
+                            <p class="text-white">Beautiful landscapes</p>
+                        </div>
                     </div>
                 </div>
             </div>
