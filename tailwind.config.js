@@ -17,7 +17,8 @@ module.exports = {
         'seattle': "url('/build/img/seattle.jpg')",
         'switzerland': "url('/build/img/switzerland.jpg')",
         'sydney': "url('/build/img/sydney.jpg')",
-        'yosemite': "url('/build/img/yosemite.jpg')",        
+        'yosemite': "url('/build/img/yosemite.jpg')",
+        'twitter': "url('https://img.icons8.com/?size=1x&id=7ZqBjBwWjYmU&format=gif')",        
       },
       colors: {
         main: {
