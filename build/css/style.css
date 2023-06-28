@@ -858,35 +858,35 @@ video {
 }
 
 .bg-LA {
-  background-image: url('/build/img/LA.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2017/09/06/19/51/holywood-2722760_1280.jpg');
 }
 
 .bg-bali {
-  background-image: url('/build/img/bali.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2021/01/27/13/47/cliff-5954980_1280.jpg');
 }
 
 .bg-chicago {
-  background-image: url('https://www.shutterstock.com/image-illustration/downtown-chicago-city-skyline-buildings-600w-2201696469.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/06/23/51/buildings-1804479_1280.jpg');
 }
 
 .bg-miami {
-  background-image: url('/build/img/miami.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2012/06/23/02/22/miami-50553_1280.jpg');
 }
 
 .bg-new_york {
-  background-image: url('/build/img/new_york.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/31/05/36/buildings-2699520_1280.jpg');
 }
 
 .bg-norway {
-  background-image: url('/build/img/norway.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2018/10/04/11/12/waterfall-3723422_1280.jpg');
 }
 
 .bg-seattle {
-  background-image: url('/build/img/seattle.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2014/08/11/21/44/seattle-416065_1280.jpg');
 }
 
 .bg-yosemite {
-  background-image: url('/build/img/yosemite.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/23/18/00/yosemite-national-park-1854097_1280.jpg');
 }
 
 .bg-cover {
