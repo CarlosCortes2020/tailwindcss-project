@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'bali': "url('/build/img/bali.jpg')",
-        'chicago': "url('/build/img/chicago.jpg')",
+        'chicago': "url('https://www.shutterstock.com/image-illustration/downtown-chicago-city-skyline-buildings-600w-2201696469.jpg')",
         'europe': "url('/build/img/europe.jpg')",
         'iceland': "url('/build/img/iceland.jpg')",
         'LA': "url('/build/img/LA.jpg')",
