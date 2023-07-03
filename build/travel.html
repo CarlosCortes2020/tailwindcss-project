@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/1be1b1612e.js" crossorigin="anonymous"></script>
     <title>Travel</title>
 </head>
-<body class="flex flex-col h-auto">
-    <header class="sticky top-0 z-10 bg-main-main100 text-white">
+<body class="flex flex-col h-auto dark:bg-gray-950">
+    <header class="sticky top-0 z-10 bg-main-main100 text-white dark:bg-gray-950">
         <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
           <h1 class="text-3xl font-medium">
             <a href="#home">🚀 Just Travel</a>
@@ -28,6 +28,15 @@
               <a href="#recomendadas" class="hover:opacity-90">Recomendados</a>
               <a href="#rentas_destacadas" class="hover:opacity-90">Destacadas</a>
               <a href="#faqs" class="hover:opacity-90">FAQS</a>
+              <button id="toggle">
+                <i class="fa-solid fa-moon fa-sm"></i>
+              </button>  
+              <a href="#recomendadas">
+                <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-user fa-sm"></i>
+              </a>
           </nav>
         </section>
         <section
@@ -74,7 +83,7 @@
                     <div class="max-w-4xl h-full flex flex-col absolute space-y-36  items-center md:relative md:space-y-20 md:h-96 md:items-start">
                       <p class="flex-none m-0 p-0 text-transparent md:text-3xl md:font-semibold md:text-white md:flex-none md:mt-12 md:ml-6">Explora nuestras opciones alrededor del mundo</p>                     
                       <input class="outline-none p-3 rounded-full shadow-sm transition duration-200 focus-within:shadow-sm focus:ring-2 focus:scale-110 md:hidden" placeholder="San Francisco" type="search" name="" id="">
-                      <button class="w-36 border-none rounded-full bg-white text-xl text-secondary-blue070 font-semibold p-4 shadow-sm transition duration-200 ease-in-out hover:text-secondary-black060 hover:bg-main-main040 hover:-translate-y-1 hover:scale-110 md:flex-none md:ml-60">
+                      <button class="w-36 border-none rounded-full bg-white text-xl text-secondary-blue070 font-semibold p-4 shadow-sm transition duration-200 ease-in-out hover:text-secondary-black060 hover:bg-main-main040 hover:-translate-y-1 hover:scale-110 md:flex-none md:ml-60  dark:text-gray-950">
                           Explorar
                       </button>
                     </div>
@@ -86,13 +95,13 @@
             </div>
 
             <div class="pt-20" id="recomendadas">
-                <p class="text-3xl font-semibold text-main-main100 mb-4">RECOMENDADOS</p>
+                <p class="text-3xl font-semibold text-main-main100 mb-4 dark:text-white">RECOMENDADOS</p>
                 <div class="flex gap-5 w-auto h-72 items-center overflow-x-auto overscroll-x-contain">
 
                     <div class="w-48 h-64 shadow-lg rounded-lg flex-none transition hover:-translate-y-2 hover:shadow-xl">
                         <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover">
                         </div>
-                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg">
+                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg dark:bg-gray-700">
                             <p class="text-white text-xl font-bold">Norway</p>
                             <p class="text-white">Beautiful landscapes</p>
                         </div>
@@ -101,16 +110,16 @@
                     <div class="w-48 h-64 shadow-lg rounded-lg flex-none transition hover:-translate-y-2 hover:shadow-xl">
                         <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover">
                         </div>
-                        <div class="w-full h-2/5 rounded-b-lg bg-white p-3 shadow-lg">
-                            <p class="text-main-main100 text-xl font-bold">New york</p>
-                            <p class="text-main-main100">Concrete jungle</p>
+                        <div class="w-full h-2/5 rounded-b-lg bg-white p-3 shadow-lg dark:bg-gray-400">
+                            <p class="text-main-main100 text-xl font-bold  dark:text-white">New york</p>
+                            <p class="text-main-main100 dark:text-white">Concrete jungle</p>
                         </div>
                     </div>
 
                     <div class="w-48 h-64 shadow-lg rounded-lg flex-none transition hover:-translate-y-2 hover:shadow-xl">
                         <div class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover">
                         </div>
-                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg">
+                        <div class="w-full h-2/5 rounded-b-lg bg-main-main100 p-3 shadow-lg  dark:bg-gray-700">
                             <p class="text-white text-xl font-bold">Yosemite</p>
                             <p class="text-white">A break from the world</p>
                         </div>
@@ -119,9 +128,9 @@
                     <div class="w-48 h-64 shadow-lg rounded-lg flex-none transition hover:-translate-y-2 hover:shadow-xl">
                       <div class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover">
                       </div>
-                      <div class="w-full h-2/5 rounded-b-lg bg-white p-3 shadow-lg">
-                          <p class="text-main-main100 text-xl font-bold">Seattle</p>
-                          <p class="text-main-main100">Big city</p>
+                      <div class="w-full h-2/5 rounded-b-lg bg-white p-3 shadow-lg dark:bg-gray-400">
+                          <p class="text-main-main100 text-xl font-bold dark:text-white">Seattle</p>
+                          <p class="text-main-main100 dark:text-white">Big city</p>
                       </div>
 
                   </div>
@@ -129,7 +138,7 @@
             </div>
 
             <div class="pt-20" id="rentas_destacadas">
-              <p class="text-3xl font-semibold text-main-main100 mb-4">Rentas Destacadas</p>
+              <p class="text-3xl font-semibold text-main-main100 mb-4 dark:text-white">Rentas Destacadas</p>
               <div class="flex flex-col gap-5 md:grid md:grid-cols-2 md:grid-rows-3">
 
                 <div class="w-full h-96 bg-chicago bg-cover rounded-xl transition hover:-translate-y-2 hover:shadow-xl md:col-span-2">
@@ -156,20 +165,20 @@
             </div>   
             
             <div class="pt-20" id="faqs">
-              <p class="text-3xl font-semibold text-main-main100 mb-4">FAQS</p>
+              <p class="text-3xl font-semibold text-main-main100 mb-4 dark:text-white">FAQS</p>
               <div class="flex flex-col gap-3">
                 <div>
-                  <p class="text-xl font-semibold text-main-main100">Metodos de Pago</p>
+                  <p class="text-xl font-semibold text-main-main100 dark:text-white">Metodos de Pago</p>
                   <p class="text-lg text-secondary-black060">Aceptamos VISA, MasterCard, American Express, Paypal y Binance</p>
                 </div>
                 
                 <div>
-                  <p class="text-xl font-semibold text-main-main100">Politica de Cancelación</p>
+                  <p class="text-xl font-semibold text-main-main100 dark:text-white">Politica de Cancelación</p>
                   <p class="text-lg text-secondary-black060">Para cancelaciones, estas deben ser notificadas al alojamiento 72 horas antes de la llegada programada</p>
                 </div>
 
                 <div>
-                  <p class="text-xl font-semibold text-main-main100">Estancias Largas</p>
+                  <p class="text-xl font-semibold text-main-main100 dark:text-white">Estancias Largas</p>
                   <p class="text-lg text-secondary-black060">Una estancia esa considerada de largo tiempo, si esta excede 15 dias seguidos</p>
                 </div>
 
@@ -179,7 +188,7 @@
         </section>    
     </main>
 
-    <footer class="bg-main-main100 text-white" id="footer">
+    <footer class="bg-main-main100 text-white dark:bg-gray-950" id="footer">
       <p class="px-5 text-lg font-semibold">Acerca de</p>
       <p class="px-5 text-sm">Inversionistas</p>
       <p class="px-5 text-sm">Trabaja con nosotros</p>
@@ -220,6 +229,21 @@
         <i class="fa-solid fa-user fa-xl"></i>
       </a>
     </div>
+
+  <script>
+    const htmlElement = document.querySelector("html")
+    const toggleButton = document.querySelector("#toggle")
+    const toggleButtonSm = document.querySelector("#toggle-sm")
+    
+    toggleButton.addEventListener("click", () => toggleDarkMode())
+    toggleButtonSm.addEventListener("click", () => toggleDarkMode())
+
+    const toggleDarkMode = () => {
+      htmlElement.classList.contains("dark")?
+      htmlElement.classList.remove("dark") :
+      htmlElement.classList.add("dark")
+    }
+  </script>
 
 </body>
 </html>
